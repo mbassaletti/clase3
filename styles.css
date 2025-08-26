@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+html, body {
+ margin: 0;
+ padding: 0;
+ background: #0e0204;
+ color: #b41a1a;
+ font-family: Helvetica, Arial, sans-serif;
+}
+    
+a{
+    color: #390007;
+    text-decoration: none;
+    transition: all ease 1s;
+}
+
+a:hover {
+    color: #9ba0ab;
+    text-decoration: underline;
+    transition: all ease 1s;
+}  
+
+a:hover:after{
+    content: " 🩸";
+}
+
+h1 {
+    font-size: calc(3rem + 5vw);
+}
+
+#bloque {
+    margin: 5rem;
+    padding: 1rem;
+    background: rgba(255,255,255,.2);
+    border-radius: 1rem;
+    box-shadow: 0 0 5px white;
+}
+
+.spooky
+ {
+    font-family: "Jolly Lodger";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ajuste{
+    font-size: 150%;
+}
+
+/*
+canvas {
+  display: block;
+}
+*/
